@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Directorio de Profesores</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Directorio de Profesores</h1>
+    </header>
+
+    <main>
+        <section id="buscar">
+            <input type="text" id="buscador" placeholder="Buscar profesor por nombre o materia">
+            <button onclick="buscarProfesor()">Buscar</button>
+        </section>
+
+        <section id="resultados">
+            <!-- Aquí aparecerán los resultados -->
+        </section>
+    </main>
+        <section id="agregar">
+    <h2>Agregar nuevo profesor</h2>
+    <input type="text" id="nombre" placeholder="Nombre del profesor">
+    <input type="text" id="materia" placeholder="Materia">
+    <input type="email" id="correo" placeholder="Correo">
+    <button onclick="agregarProfesor()">Agregar</button>
+</section>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
